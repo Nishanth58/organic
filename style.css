@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: #243F2F;
+    font-size: 2rem;
+
+}
+
+.navbar-brand:hover {
+    color: #243F2F;
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #243F2F;
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid #243F2F;
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: #243F2F;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.main {
+    background: url(./banner1.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: #243F2F;
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.btn1:hover {
+    background-color: #ffffff;
+    transition: 0.5s;
+    color: #243F2F;
+    border:1px solid #243F2F;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.card:hover {
+    -webkit-box-shadow: 0px 0px 12px 2px rgba(148, 148, 148, 1);
+    -moz-box-shadow: 0px 0px 12px 2px rgba(148, 148, 148, 1);
+    box-shadow: 0px 0px 12px 2px rgba(148, 148, 148, 1);
+    transition: 0.5s;
+}
+
+.boy {
+    background-color: #367869;
+    background-size:cover ;
+    height: 80vh;
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.news{
+    background-color: #000000;
+    color:white;
+}
+
+.btn2{
+    height: 45px;
+    width:100px;
+    background:white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+.news input{
+    height:45px;
+    width:55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top:20px;
+    font-weight: 600;
+}
+
+.news::placeholder{
+    color:white;
+}
+
+.news p{
+    margin:0;
+}
+
